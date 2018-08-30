@@ -1,2 +1,2 @@
-# subspacevr-website
+# SubSpace VR Website
 Web Code for Subspace VR Website
