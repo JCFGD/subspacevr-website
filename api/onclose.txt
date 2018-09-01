@@ -1,0 +1,1 @@
+{"ActorCount":0,"AppVersion":"3_1.91","AppId":"b744867b-11f7-42d6-b2e5-f772523c235e","GameId":"d7d3b483-5371-40eb-8fc4-f043fa1a84a4","Region":"EU","Type":"Close"}

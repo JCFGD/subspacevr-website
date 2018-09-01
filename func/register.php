@@ -2,6 +2,8 @@
 mysql_connect("rdbms.strato.de", "U1919879", "DB12357DB-DB12357DB") or die("Mysql wurde nicht Gefunden!!");
 mysql_select_db("DB1919879") or die("Keine Datenbank");
 
+require "../inc/genid.php";
+
 $status = 1;
 $msg = "";
 $createable = 1;
@@ -53,11 +55,14 @@ if($creating == 0){
 
 if($creating == 1){
 	if($status == 3) {
+		
+		$id = genUserID();
+		
 		//$activation = md5(uniqid(rand(), true));
 		//$passhash = md5(md5($salt)).md5($pass);
 		
 		$passhash = md5($pass);
-		$sql = "INSERT INTO subspace_users(username, password, email) VALUES('$user', '$passhash', '$mail')";
+		$sql = "INSERT INTO subspace_users(userid, username, password, email) VALUES('$id','$user', '$passhash', '$mail')";
 		$ergebnis = mysql_query($sql);
 /*		$empfaenger = "$user<$mail>";
 		$from  = "MIME-Version: 1.0\r\n";

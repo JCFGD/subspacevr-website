@@ -1,0 +1,1 @@
+{"ActorNr":2,"AppVersion":"3_1.91","AppId":"b744867b-11f7-42d6-b2e5-f772523c235e","GameId":"ce9f0283-a231-4bdd-bc07-3079de611a4b","IsInactive":false,"Reason":"0","Region":"EU","Type":"ClientDisconnect","UserId":"user_LZgHBn-PNjNmj-QmcWFo-QhRGXq-ncaRGI-OrcVyd","Nickname":"SubSpace"}
